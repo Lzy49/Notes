@@ -171,8 +171,8 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": true,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "obsidian-memos:Memos": false,
-      "janitor:Janitor: scan vault": false
+      "janitor:Janitor: scan vault": false,
+      "obsidian-memos:Memos": false
     }
   },
   "active": "30b3a63564b548f6",
