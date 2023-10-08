@@ -4,18 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "af802ba26e3d23f1",
+        "id": "14f664dde7a81a6e",
         "type": "tabs",
         "children": [
           {
-            "id": "30b3a63564b548f6",
+            "id": "31d98dea439af474",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "前端/vue-compiler.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "799604b39e0a5ea5",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/app.json",
+                "staged": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,6 +170,14 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "c1aea6b3ddb2c276",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {}
+            }
           }
         ],
         "currentTab": 6
@@ -175,12 +199,26 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "30b3a63564b548f6",
+  "active": "799604b39e0a5ea5",
   "lastOpenFiles": [
-    "日记/111.html",
+    "计划/10月计划.md",
+    "草稿箱/画图工具设计.md",
+    "计划",
+    "素材/Pasted image 20231008201813.png",
+    "素材/Pasted image 20231008201658.png",
     "测测fefe.md",
-    "工具/Obsidian 插件集.md",
+    "英语/英语生词本.md",
     "前端/vue-compiler.md",
+    "前端/vue-render.md.md",
+    "英语",
+    "工具/Obsidian 插件集.md",
+    "草稿箱/垃圾文件.md",
+    "草稿箱",
+    "Pasted image 20231005210808.png.md",
+    "素材/Pasted image 20231005210808.png",
+    "素材",
+    "未命名文件夹",
+    "日记/111.html",
     "前端/Vue-.md",
     "工具",
     "前端",

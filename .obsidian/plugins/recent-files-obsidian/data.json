@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "测测fefe",
-      "path": "测测fefe.md"
+      "basename": "10月计划",
+      "path": "计划/10月计划.md"
     },
     {
-      "basename": "Obsidian 插件集",
-      "path": "工具/Obsidian 插件集.md"
+      "basename": "画图工具设计",
+      "path": "草稿箱/画图工具设计.md"
+    },
+    {
+      "basename": "英语生词本",
+      "path": "英语/英语生词本.md"
     },
     {
       "basename": "vue-compiler",
       "path": "前端/vue-compiler.md"
+    },
+    {
+      "basename": "vue-render.md",
+      "path": "前端/vue-render.md.md"
+    },
+    {
+      "basename": "Obsidian 插件集",
+      "path": "工具/Obsidian 插件集.md"
     }
   ],
   "omittedPaths": [],

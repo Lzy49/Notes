@@ -65,7 +65,7 @@ template 模板 -> parse （词法分析 + 语法分析） -> 模板 ast -> tran
 	3. 收集 token 内容
 	4. 收集 token 为 token 数组集和
 - 状态机使用 -> 循环template -> 匹配状态收集 -> 返回 token 数组
-### 2、parse - other
+### 2. parse - other
 #### 行为
 将 tokens -> JavaScript AST
 将
@@ -113,7 +113,7 @@ const ast = {
 		- parent.children.push(it)
 	- tagEnd
 		- 弹出 elementStack
-## 1、parse 
+## 1. parse 
 #### 行为
 将 Template 字符串 截取为 Token 数组 。
 即将 源代码
@@ -131,16 +131,16 @@ const ast = {
 ### 操作
 - 定义状态表，区分当前状态
 - 定义 context 上下文 和 ancestors 记录层级关系
-	- source : 当前整个 template 模板 (\<div>\</div>)
+	- source : 当前整个 template 模板 (`\<div>\</div>`)
 	- advanceBy : 消费 source
 	- advanceSpaces : 消费 source 的 空白字符
 - 定义 Root 节点 ：
 	- 守卫打平模板的开始和结束
 	- 为后续 render 函数拼接做准备
-- root.children = paseChildren
+- root.children = parseChildren
 - parseChildren： 解析子节点 [有限状态机]
 	- 状态机跳出条件：
-		- source.lenght <= 0 : 模板结束
+		- source.length <= 0 : 模板结束
 		- source 以 ancestors 最后一个 开始
 			- 守卫 source 以 ancestors 的其他 item 开始 -> source 少写了 闭合标签
 	- 状态机状态
@@ -158,7 +158,7 @@ const ast = {
 		- `/style|xmp|iframe|noembed|noframes|noscript/` -> RAWTEXT
 		- other -> DATA
 	- 保存 该 el 到 ancestors 中
-	- 解析其子节点 ：el.children = paseChildren()
+	- 解析其子节点 ：el.children = parseChildren()
 	- 弹出 ancestors 栈顶
 	- 使用 parseTag 消费 source
    - 返回这个 el
@@ -174,10 +174,13 @@ const ast = {
 		- 处理 attrs
 			- 消费 空白
 			- 循环匹配 字符串
-				- 收集 attr-tag
+				- 收集 attrs-tag
 					- 判断 vue 标签和普通标签 -> 以 v- , @ ,: 开头是 vue 标签
+						- [优化点] 
+							- 记录 patchFlag -> 如果有 `:` 说明是有 attrs 动态值. 需要在响应值修改时进行更新.
+							- 收集该 DOM 到 该组件的 vnode 上. 
 				- 以 = 分隔
-				- 收集 attr-value
+				- 收集 attrs-value
 			- 得到 {tag,value} array
 		- 处理 结束标签
 			- 判断自闭合
@@ -201,6 +204,9 @@ const ast = {
 	- 创建 comment 节点
 	- 消费 source
 - parseInterpolation 
+	- [优化点] 
+		- 当内容是 {{}} 时节点会记录 patchFlag -> 表示内容是动态的.
+		- 收集该 DOM 到 该组件的 vnode 上. 
 	- 确定 文本长度
 		- start: 0
 		- end : }} 
@@ -213,7 +219,7 @@ const ast = {
 | RCDATA  | 否             | 是                   | \<title\> 、\<textarea\> 标签                                      |
 | RAWTEXT | 否             | 否                   | \<style>、\<xmp>、\<iframe>、\<noembed>、\<noframes>、 \<noscript> |
 | CDATA   | 否             | 否                   | \<!\[CDATA\[                                                       |
-## 2、transfrom
+## 2. transfrom
 ### 行为
 给 JavaScript AST 打补丁:
 1. 生成 AST 的 jsNode 即 描述 JavaScript AST 的各项属性
@@ -245,15 +251,15 @@ const FunctionDeclNode = {
 	- childrenIndex 
 	- transforms  插件
 - traverseNode 用来递归 JavaScript AST tree 
-	- 修改 当前环境 contexnt.currentNode
+	- 修改 当前环境 context.currentNode
 	- 运行 transforms 中的插件 并收集副作用
-	- 递归 子节点 并更改 contexnt.childrenIndex 和 contexnt.parant
+	- 递归 子节点 并更改 context.childrenIndex 和 context.parent
 	- 倒序运行 transforms 插件产生的副作用
 - 注意点： 插件顺序是 a -> b -> c 副作用顺序 ：c -> b -> a
 - transforms 插件：
 	- 设置 item.jsNode -> 描述其 js 代码的数组
-		- p -> h('p',null,children)
-## 3、generate 生成器
+		- p -> h('p', null ,children)
+## 3. generate 生成器
 #### 行为
 循环 AST 生成 JavaScript AST
 ```html
@@ -285,7 +291,8 @@ Vue compiler 是 将 template 转为 JavaScript 函数表达式 。
 
 
 
-
+# 临时
+1. block -> 收集 组件收集 动态内容 ,  v-if 来控制 , -> 变来变去 -> 
 
 
 
