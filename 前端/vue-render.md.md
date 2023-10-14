@@ -1,3 +1,9 @@
+---
+tags: [vue]
+intro: vue 源码解析
+type: [笔记]
+source: [《Vue.js设计与实现》 ]
+---
 # 渲染器的创建
 - createRenderer(option) -> 创建 一个渲染器 , option 自定义配制对象 是为了实现自定义行为. 调用平台能力 即 浏览器 操作 DOM. 
   - renderer 

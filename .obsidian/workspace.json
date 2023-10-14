@@ -4,34 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "14f664dde7a81a6e",
+        "id": "9cd5280407e35c31",
         "type": "tabs",
         "children": [
           {
-            "id": "31d98dea439af474",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/vue-compiler.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "799604b39e0a5ea5",
+            "id": "1b8976e9e2851ee4",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/app.json",
+                "file": "前端/vue-compiler.md",
                 "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,21 +186,31 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "799604b39e0a5ea5",
+  "active": "1b8976e9e2851ee4",
   "lastOpenFiles": [
+    "草稿/面试备战表.md",
+    "草稿/浏览器相关.md",
     "计划/10月计划.md",
-    "草稿箱/画图工具设计.md",
+    "草稿/CIM.md",
+    "草稿/Sentry.md",
+    "档案/李子阳-web前端.md",
+    "草稿箱/未命名.md",
+    "前端/GOTIN-UI.md",
+    "前端/埋点SDK.md",
+    "目录.md",
+    "前端/画图工具设计.md",
+    "档案",
+    "前端/vue-compiler.md",
+    "工具/Obsidian 插件集.md",
+    "英语/英语生词本.md",
+    "前端/vue-render.md.md",
     "计划",
     "素材/Pasted image 20231008201813.png",
     "素材/Pasted image 20231008201658.png",
     "测测fefe.md",
-    "英语/英语生词本.md",
-    "前端/vue-compiler.md",
-    "前端/vue-render.md.md",
     "英语",
-    "工具/Obsidian 插件集.md",
     "草稿箱/垃圾文件.md",
-    "草稿箱",
+    "草稿",
     "Pasted image 20231005210808.png.md",
     "素材/Pasted image 20231005210808.png",
     "素材",
@@ -223,7 +220,6 @@
     "工具",
     "前端",
     "日记",
-    "theme.css",
     "未命名.canvas",
     "未命名.md"
   ]

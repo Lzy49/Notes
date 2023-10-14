@@ -1,5 +1,5 @@
 ---
-tags: [vue]
+tags: [vue, 编译器, 插件模式 , 有限状态自动机]
 intro: vue 源码解析
 type: [笔记]
 source: [《Vue.js设计与实现》 ]
