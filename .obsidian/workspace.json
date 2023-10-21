@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "未命名.canvas",
+                "file": "档案/李子阳-web前端.md",
                 "staged": false
               }
             }
@@ -188,6 +188,8 @@
   },
   "active": "b2b6d050612932ae",
   "lastOpenFiles": [
+    "档案/李子阳-前端.md",
+    "档案/aaa.md",
     "前端/Vue2 -> Vue3 有什么变化和提升.md",
     "草稿/aaa.md",
     "草稿/自我介绍.md",
@@ -217,8 +219,6 @@
     "草稿/10月20日/Esbuild.md",
     "草稿/10月20日/工程化工具.md",
     "草稿/10月20日/随笔录.md",
-    "草稿/Vue 回答思路.md",
-    "草稿/10月20日/Vite 原理.md",
     "草稿/10月20日",
     "档案",
     "计划",
