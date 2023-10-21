@@ -35,7 +35,7 @@ source: [《Vue.js设计与实现》 ]
       - string -> 更新文案即可
       - array -> 
         - diff 算法
-          - 取 min(old.length, new.length) -> 为了最少的jinx path 比较
+          - 取 min(old.length, new.length) -> 进行 path 比较
           - 判断新增 (old.length < new.length) -> 挂载 new 中剩余vnode
           - 判断删除 (old.length > new.length) -> 卸载 old 中剩余vnode
         - key 判断 (想要复用 item 通过 type 判定有点草率 , 所以给 item 定义了 ID_Card)
@@ -247,4 +247,4 @@ source: [《Vue.js设计与实现》 ]
 2. HTML Attributes 可能关联多个 DOM Properties。
 3. HTML Attributes 的作用是设置与之对应的 DOM Properties 的初始值。
 # renderer 和 reactivity 如何联系
-在响应式的副作用函数中 执行渲染器函数 . 当渲染器函数中引用了响应数据 .就可以触发响应. ?
+在响应式的副作用函数中 执行渲染器函数 . 当渲染器函数中引用了响应数据 .就可以触发响应.

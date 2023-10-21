@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9cd5280407e35c31",
+        "id": "635275e7120994a9",
         "type": "tabs",
         "children": [
           {
-            "id": "1b8976e9e2851ee4",
+            "id": "b2b6d050612932ae",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "前端/vue-compiler.md",
+                "file": "未命名.canvas",
                 "staged": false
               }
             }
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "7182fd2318a87be6",
@@ -171,7 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 200.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,41 +186,51 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1b8976e9e2851ee4",
+  "active": "b2b6d050612932ae",
   "lastOpenFiles": [
-    "草稿/面试备战表.md",
-    "草稿/浏览器相关.md",
-    "计划/10月计划.md",
-    "草稿/CIM.md",
-    "草稿/Sentry.md",
-    "档案/李子阳-web前端.md",
-    "草稿箱/未命名.md",
-    "前端/GOTIN-UI.md",
-    "前端/埋点SDK.md",
-    "目录.md",
-    "前端/画图工具设计.md",
-    "档案",
-    "前端/vue-compiler.md",
+    "前端/Vue2 -> Vue3 有什么变化和提升.md",
+    "草稿/aaa.md",
+    "草稿/自我介绍.md",
     "工具/Obsidian 插件集.md",
-    "英语/英语生词本.md",
-    "前端/vue-render.md.md",
+    "前端/vue-compiler.md",
+    "前端/vue-render.md",
+    "前端/Vitest vs jest.md",
+    "前端/Sentry.md",
+    "前端/元宇宙基础项目设计.md",
+    "前端/画图工具设计.md",
+    "未命名.canvas",
+    "草稿/未命名 1.md",
+    "草稿/未命名 2.md",
+    "草稿/未命名 3.md",
+    "草稿/未命名 4.md",
+    "草稿/未命名 5.md",
+    "草稿/未命名 6.md",
+    "未命名 4.canvas",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "草稿/浏览器相关.md",
+    "草稿/合成图片工具.md",
+    "草稿/面试笔录.md",
+    "草稿/书.md",
+    "草稿/10月20日/Rollup.md",
+    "草稿/10月20日/Esbuild.md",
+    "草稿/10月20日/工程化工具.md",
+    "草稿/10月20日/随笔录.md",
+    "草稿/Vue 回答思路.md",
+    "草稿/10月20日/Vite 原理.md",
+    "草稿/10月20日",
+    "档案",
     "计划",
     "素材/Pasted image 20231008201813.png",
     "素材/Pasted image 20231008201658.png",
-    "测测fefe.md",
     "英语",
-    "草稿箱/垃圾文件.md",
     "草稿",
-    "Pasted image 20231005210808.png.md",
     "素材/Pasted image 20231005210808.png",
     "素材",
     "未命名文件夹",
     "日记/111.html",
-    "前端/Vue-.md",
     "工具",
-    "前端",
-    "日记",
-    "未命名.canvas",
-    "未命名.md"
+    "前端"
   ]
 }
