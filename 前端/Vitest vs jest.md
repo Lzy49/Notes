@@ -1,7 +1,7 @@
 ---
 tags: [Vitest, Jest, 面试]
 intro: vitest 和 jest 的区别
-type: [笔记]
+type: [知识]
 source: []
 ---
 ## 效率

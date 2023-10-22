@@ -1,7 +1,7 @@
 ---
 tags: [Vue, 面试]
 intro: Vue2 和 Vue3 的重要差异
-type: [笔记]
+type: [知识]
 source: [https://time.geekbang.org/column/article/428904]
 ---
 # 源代码层面

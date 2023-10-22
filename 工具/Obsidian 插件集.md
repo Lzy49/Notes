@@ -1,7 +1,7 @@
 ---
 tags: [obsidian]
 intro: obsidian 有用的插件
-type: [知识收集]
+type: [知识]
 ---
 ## vimrc-support
 自定义 vim 按键
